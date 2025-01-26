@@ -151,6 +151,8 @@ import (
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/oauth2/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/on_demand/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/original_src/v3"
+	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/priority_load_balancer/v3"
+	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/priority_queue_lb/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/proto_message_extraction/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/rate_limit_quota/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/ratelimit/v3"
